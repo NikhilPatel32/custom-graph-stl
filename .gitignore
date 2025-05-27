@@ -1,0 +1,42 @@
+# Ignore build directories
+/build/
+/bin/
+/out/
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore executables (Linux, Windows)
+*.exe
+*.out
+*.app
+
+# Ignore editor files
+.vscode/
+*.code-workspace
+
+# Ignore compiled libraries
+*.so
+*.dll
+*.dylib
+*.lib
+*.a
+
+# Ignore temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore CMake files (if you use CMake)
+/CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore backup files
+*~
+*.swp
